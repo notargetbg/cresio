@@ -1,4 +1,4 @@
-
+/*
 Theme Name: UberShop Child
 Theme URI: http://demo.pukkathemes.com/ubershop/
 Author: Pukka
@@ -1586,63 +1586,6 @@ a.remove {
     width: 70%;
     margin: 0 auto;
 }
-
-/*end*/
-
-/* Checkout page changes - Woocommerce 2.4.0 */
-.review_table .product-name {
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-table.review_table.basic {
-    width: 99%;
-	margin-left: 1px;
-}
-.content-wrap img {
-    width: 235px;
-}
-input#billing_phone {
-    width: 93%;
-}
-div.mbguar > img {
-    width: 40%;
-    float: right;
-}
-.mbguar {
-    width: 40%;
-    float: right;
-    margin-top: -157px;
-}
-@media (max-width: 900px) {
-	div.mbguar > img {
-    width: 45%;
-}
-.mbguar {
-    width: 45%;
-}
-}
-@media (max-width: 520px) {
-	input#billing_phone {
-    width: 85%;
-}
-div.mbguar > img {
-    width: 67%;
-}
-.mbguar {
-    width: 67%;
-}
-
-}
-/* end */
-
-/* fix nav bullets displaying on top */
-#modal-18 {
-    z-index: 1001 !important;
-}
-/* end*/ 
-
-/* Zhetchko's Styles For Producs on the Home Page */
-
 @media all and (max-width: 1920px) {
 .hpproduct-title1{
 	/* Zhetchko's changes home-page sale */
@@ -1825,6 +1768,59 @@ div#legit-seller-wrapper {
     position: absolute;
 }
 }
+/*end*/
+
+/* Checkout page changes - Woocommerce 2.4.0 */
+.review_table .product-name {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+table.review_table.basic {
+    width: 99%;
+	margin-left: 1px;
+}
+.content-wrap img {
+    width: 235px;
+}
+input#billing_phone {
+    width: 93%;
+}
+div.mbguar > img {
+    width: 40%;
+    float: right;
+}
+.mbguar {
+    width: 40%;
+    float: right;
+    margin-top: -157px;
+}
+@media (max-width: 900px) {
+	div.mbguar > img {
+    width: 45%;
+}
+.mbguar {
+    width: 45%;
+}
+}
+@media (max-width: 520px) {
+	input#billing_phone {
+    width: 85%;
+}
+div.mbguar > img {
+    width: 67%;
+}
+.mbguar {
+    width: 67%;
+}
+
+}
+/* end */
+
+/* fix nav bullets displaying on top */
+#modal-18 {
+    z-index: 1001 !important;
+}
+/* end*/ 
 
 /*new layout product fixes - Zhetchko's changes - home products section - 10.12.2015 */
 @media all and (min-width: 1600px) {
@@ -1859,4 +1855,4 @@ div#legit-seller-wrapper {
 }
 
     
-/* end 
+/* end */
